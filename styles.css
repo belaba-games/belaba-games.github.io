@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext);
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ef5350;
+  color: #ffffff;
+}
+
+img
+{
+  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body
+{
+  overflow: hidden;
+}
+
+.menu
+{
+  z-index: 1;
+  font-size: 3em;
+  margin: 10px;
+}
+
+p:hover
+{
+  background-color: #ffffff;
+  color: #ef5350;
+}
