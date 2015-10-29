@@ -12,6 +12,10 @@ function main() {
   var miscJobb = document.getElementById("miscJobb");
   var aboutJobb = document.getElementById("aboutJobb");
 
+  gamesJobb.style.display = "none"
+  miscJobb.style.display = "none";
+  aboutJobb.style.display = "none";
+
   //Kép és jobb <div>ek eltüntetése/megjelenítése
   games.addEventListener("click", function(){
     kep.style.display = "none";
@@ -38,6 +42,10 @@ function main() {
 
   back.addEventListener("click", function(){
   kep.style.display = "block";
+  gamesJobb.style.display = "none"
+  miscJobb.style.display = "none";
+  aboutJobb.style.display = "none";
+
   });
   //Eletüntet/megjelenít vége
 }
