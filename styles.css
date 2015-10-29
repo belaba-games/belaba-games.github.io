@@ -1,3 +1,4 @@
+/*Roboto font include-olása*/
 @import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext);
 
 *
@@ -9,23 +10,36 @@
   color: #ffffff;
 }
 
-img
-{
-  float: right;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 body
 {
   overflow: hidden;
 }
 
-.menu
+#jobb
 {
+  display: none;
+  float: top;
+  margin-left: 40%;
+  margin-right: 10%;
+  display: block;
+  font-size: 1.5em;
+}
+
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 1;
+}
+
+
+#bal
+{
+  display: block;
+  float: left;
   font-size: 3em;
-  margin: 10px;
+  margin: 1.5%;
 }
 
 p:hover
@@ -33,3 +47,5 @@ p:hover
   background-color: #ffffff;
   color: #ef5350;
 }
+
+/*Copyright 2015 Benedek Tomasik*/

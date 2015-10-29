@@ -2,12 +2,61 @@
 <html>
 <head>
   <title>Belaba Games</title>
+
+  <!--                            Tab ikon                                -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!--                      CSS és JS include                              -->
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="main.js"></script>
+
+  <!--               Google analitycs                                       -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-69440683-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </head>
-<body>
-  <img src="cover.png">
-  <div class="menu"> <p>Games</p></div>
-  <div class="menu"> <p>Misc projects</p></div>
-  <div class="menu"> <p>About</p></div>
+
+<body onload="main();">
+
+  <div id="bal">
+    <div  id="games"> <p>Games</p></div>
+    <div  id="misc"> <p>Misc projects</p></div>
+    <div  id="about"> <p>About</p></div>
+    <div  id="back"> <p>Back</p></div>
+  </div>
+
+
+ <img src="cover.png" id="kep">
+
+  <div id="jobb">
+    <div id="gamesJobb">
+      This is a game or not dunno
+    </div>
+    <div id="miscJobb">
+      This is test or project or what ever
+    </div>
+    <div id="aboutJobb">
+    <br>
+    <br>
+    Hi my name is Benedek, I made this site!
+    <br><br>
+    You can find various projects and games (mainly remakes) made purely with html5 tecnology. The code won't be perfect because this is mainly for learning, feel free to send me suggestions.
+    <br><br>
+    If you'd like to contact me send an email to me:
+    <br>
+    belabagames [at] gmail [dot] com
+    </div>
+  </div>
+
 </body>
 </html>
+
+<!--Copyright 2015 Benedek Tomasik-->
