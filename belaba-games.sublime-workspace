@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"key",
+				"keyState"
+			],
+			[
+				"ke",
+				"keyState"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"bk",
+				"background-color"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"fil",
+				"fillRect"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"ra",
+				"racket"
+			],
+			[
+				"ball",
+				"ballInitPos"
+			],
+			[
+				"v",
+				"var"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mi",
+				"miscJobb"
+			],
+			[
+				"abou",
+				"aboutJobb"
+			],
+			[
+				"gam",
+				"gamesJobb"
+			],
+			[
+				"top",
+				"top-corner"
+			],
+			[
+				"ovw",
+				"overflow"
+			],
+			[
+				"flo",
+				"float-offset"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
 				"get",
 				"getElementById"
 			],
@@ -59,22 +131,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 617,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "styles.css",
-			"settings":
-			{
-				"buffer_size": 439,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -147,6 +203,11 @@
 	},
 	"file_history":
 	[
+		"/home/benedek/Documents/web/pong.js",
+		"/home/benedek/Documents/web/pong.html",
+		"/home/benedek/Documents/web/belaba-games.github.io/index.html",
+		"/home/benedek/Documents/web/belaba-games.github.io/main.js",
+		"/home/benedek/Documents/web/belaba-games.github.io/styles.css",
 		"/home/benedek/Documents/web/Easeljs/index.html",
 		"/home/benedek/Documents/web/FGDHTML5/Guess my number.html",
 		"/home/benedek/ksjdbhf.py",
@@ -155,7 +216,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -169,6 +230,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Vector",
 			"Ticker",
 			"setFPS",
 			"            \n"
@@ -189,81 +251,19 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 617,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								439,
-								439
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 439,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								371,
-								371
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS3/CSS3.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -289,7 +289,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.617862371889,
 			1.0
 		],
 		"rows":
@@ -307,7 +307,7 @@
 	"project": "belaba-games.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
